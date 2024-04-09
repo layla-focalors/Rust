@@ -6,4 +6,4 @@
 ```
     VERSION == 0.0.1
     LANG = RUST
-```python
+```Rust
