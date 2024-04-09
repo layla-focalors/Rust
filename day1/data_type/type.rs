@@ -27,4 +27,19 @@ fn main(){
     }else {
         println!("Type1 and Type2 is same");
     }
+
+    // char type
+    let uppercase_s = 'S';
+    let lowercase_f = 'f';
+    let imozi = '😃';
+
+    // type-safe code
+    let char1:char = 'S';
+    let char2:char = 'F';
+
+    // 문자열
+    let str1 = "hello world";
+    let str2: &str = "지금 적멸의 시간";
+    println!("{}, {}, {}, {}", char1, char2, str1, str2)
+    
 }
